@@ -1,1 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Poppins:ital,wght@1,400;1,500&family=Ubuntu:ital@0;1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin:auto;
+}
+
+/* Navbar styling */
+
+.navbar{
+    background: crimson;
+    position: fixed;
+    width: 100%;
+    font-family: 'Ubuntu',sans-serif;
+    padding: 15px 0;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
