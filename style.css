@@ -15,12 +15,19 @@
 /* Navbar styling */
 
 .navbar{
-    background: crimson;
+    /* background: crimson; */
     position: fixed;
     width: 100%;
     font-family: 'Ubuntu',sans-serif;
-    padding: 15px 0;
+    padding: 30px 0;
+    transition: color 0.4s ease;
+
 }
+.navbar.sticky{
+    padding: 30px 0;
+    background-color: crimson;
+}
+
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -40,4 +47,43 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.4s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+
+/* home section styling */
+.home{
+    display:flex;
+    background: url(images/canva_img.png) no-repeat right;
+    background-size:cover;
+    height: 120vh;
+    min-height: 500px;
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .max-width{
+    /*  margin-top: auto; 
+        margin-left:0;
+        margin-bottom: auto;
+        margin-right: 10px; */ 
+    margin: auto 0  auto 10px;
+}
+.home .home-content .text-1{
+    font-size: 25px; 
+    padding-bottom: 10px; 
+}
+.home .home-content .text-2{
+    font-size: 50px;  
+    padding-bottom: 3px; 
+    font-weight: 700;
+
+}
+.home .home-content .text-3{
+    font-size: 23px;  
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
 }
