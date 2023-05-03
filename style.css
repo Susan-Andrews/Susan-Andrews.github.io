@@ -65,7 +65,8 @@
 /* home section styling */
 .home{
     display:flex;
-    background: url(images/canva_img.png) no-repeat right;
+    background-color: black;
+    /* background: url(images/canva_img.png) no-repeat center; */
     background-size:cover;
     height: 120vh;
     min-height: 500px;
@@ -96,7 +97,21 @@
     color: crimson;
     font-weight: 500;
 }
-
+ #hirebtn{
+    background-color: rgb(224, 15, 57);
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top:20px;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: large;
+ }
+ #hirebtn:hover{
+    background-color:#fff;
+    color: crimson;
+    background:none;
+ }
 /* responsive media query start */
 @media (max-width:947px){
     .max-width{
@@ -107,16 +122,22 @@
         display:block;
         z-index: 999;
     }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
     .navbar .menu { 
         position: fixed;
         background: #111;
         height: 100vh;
         width: 100%;
-        left: 0;
+        left: -100%;
         top: 0;
         text-align: center;
         padding-top: 80px;
-
+        transition:all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
 
     }
     .navbar .menu li{
@@ -127,6 +148,26 @@
         margin: 20px 0;
         font-size: 20px;
     }
+    .home .home-content .text-2{
+        font-size: 70px; 
+    }
+    .home .home-content .text-3{
+        font-size: 35px;  
+    }
 }
 
-/* need to make toggling of navbar*/
+@media (max-width:500px){
+    .max-width{
+        padding:0 23px;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 60px;  
+    }
+    .home .home-content .text-3{
+        font-size: 32px;  
+    }
+    #hire-btn{
+        font-size: x-large;
+    }
+}

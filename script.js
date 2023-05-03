@@ -6,5 +6,13 @@ $(document).ready(function(){
             $('.navbar').removeClass('sticky');
         }
 
-    })
-})
+    });
+    // toggle menu
+
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+
+        
+    });
+});
