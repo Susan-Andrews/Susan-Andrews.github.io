@@ -21,6 +21,7 @@
     font-family: 'Ubuntu',sans-serif;
     padding: 30px 0;
     transition: color 0.4s ease;
+    z-index: 999;
 
 }
 .navbar.sticky{
@@ -97,7 +98,7 @@
     color: crimson;
     font-weight: 500;
 }
- #hirebtn{
+#hirebtn{
     background-color: rgb(224, 15, 57);
     color: white;
     width: 100px;
@@ -106,7 +107,7 @@
     border: none;
     transition: all 0.3s ease;
     font-size: large;
- }
+}
  #hirebtn:hover{
     background-color:#fff;
     color: crimson;
@@ -170,4 +171,54 @@
     #hire-btn{
         font-size: x-large;
     }
+}
+
+/* about section styling */
+section{
+    padding: 100px 0;
+    height: 100vh;
+}
+.about{
+    font-family: 'Poppins' , sans-serif;
+}
+.about .title , .portfolio .title , .contact .title{
+    text-align: center;
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position:relative;
+}
+
+.about .title::before , .portfolio .title::before , .contact .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background:#111;
+    transform: translateX(-50%);
+}
+#cvbtn{
+    background-color: rgb(224, 15, 57);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top:20px;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: large;
+}
+#cvbtn:hover{
+    background-color:#fff;
+    color: crimson;
+    background:none;
+}
+
+/* portfolio section styling */
+
+.portfolio{
+    background-color: crimson;
 }
