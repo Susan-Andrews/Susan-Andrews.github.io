@@ -6,6 +6,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+:root{
+    --primary-color:#05231a;
+}
+
+/* main div */
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -15,23 +21,25 @@
 /* Navbar styling */
 
 .navbar{
-    /* background: crimson; */
+    background:var(--primary-color);
     position: fixed;
     width: 100%;
     font-family: 'Ubuntu',sans-serif;
     padding: 30px 0;
     transition: color 0.4s ease;
     z-index: 999;
-
 }
+
 .navbar.sticky{
     padding: 30px 0;
-    background-color: crimson;
-}
-.navbar.sticky .menu li a:hover{
-    color:white;
+    background-color:var(--primary-color);
 }
 
+/* need to change color for hover */
+
+.navbar.sticky .menu li a:hover{
+    color:var(--primary-color);
+}
 .menu-btn{
     color: white;
     font-size: 23px;
@@ -43,6 +51,9 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* need to insert logo  */
+
 .navbar .logo a{
     color:white;
     font-size: 35px;
@@ -60,14 +71,15 @@
     transition: color 0.4s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color:var(--primary-color);
 }
 
 /* home section styling */
+
 .home{
     display:flex;
-    background-color: black;
-    /* background: url(images/canva_img.png) no-repeat center; */
+    background-image:url(images/rectangle.jpg);
+    background-attachment: fixed;
     background-size:cover;
     height: 120vh;
     min-height: 500px;
@@ -85,21 +97,23 @@
     font-size: 25px; 
     padding-bottom: 10px; 
 }
+.home .home-content{
+    color: var(--primary-color);
+}
 .home .home-content .text-2{
     font-size: 50px;  
     padding-bottom: 3px; 
     font-weight: 700;
-
 }
 .home .home-content .text-3{
     font-size: 23px;  
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color:var(--primary-color);
     font-weight: 500;
 }
 #hirebtn{
-    background-color: rgb(224, 15, 57);
+    background-color: var(--primary-color);
     color: white;
     width: 100px;
     height: 40px;
@@ -110,9 +124,10 @@
 }
  #hirebtn:hover{
     background-color:#fff;
-    color: crimson;
+    color:var(--primary-color);
     background:none;
- }
+}
+
 /* responsive media query start */
 @media (max-width:947px){
     .max-width{
@@ -128,8 +143,7 @@
     }
     .navbar .menu { 
         position: fixed;
-        background: #111;
-        height: 100vh;
+        background:var(--primary-color);
         width: 100%;
         left: -100%;
         top: 0;
@@ -174,11 +188,18 @@
 }
 
 /* about section styling */
+
 section{
     padding: 100px 0;
     height: 100vh;
 }
+.abouttext , .veridiang , .title{
+    color: rgb(210, 210, 210);
+}
 .about{
+    background-color:var(--primary-color);
+    height: 80vh;
+    /* min-width: 80vh; */
     font-family: 'Poppins' , sans-serif;
 }
 .about .title , .portfolio .title , .contact .title{
@@ -198,27 +219,38 @@ section{
     left: 50%;
     width: 180px;
     height: 3px;
-    background:#111;
+    background:#fff;
     transform: translateX(-50%);
 }
 #cvbtn{
-    background-color: rgb(224, 15, 57);
-    color: white;
+    background-color:white;
+    color: var(--primary-color);
     width: 200px;
-    height: 50px;
+    height: 40px;
     margin-top:20px;
     border: none;
     transition: all 0.3s ease;
     font-size: large;
 }
 #cvbtn:hover{
-    background-color:#fff;
-    color: crimson;
+    background-color:var(--primary-color);
+    color:white;
     background:none;
 }
 
 /* portfolio section styling */
 
-.portfolio{
-    background-color: crimson;
+ .portfolio{
+    height: 120vh;
+    /* min-width: 80vh; */
+    background-image: url(images/rectangle.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+/* contact section styling */
+
+.contact{
+    height: 80vh;
+    background-color:var(--primary-color);
 }
