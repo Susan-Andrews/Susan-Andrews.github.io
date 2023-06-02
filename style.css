@@ -286,6 +286,7 @@ section {
     background-image: url(images/rectangle.jpg);
     background-attachment: fixed;
     background-size: cover;
+    margin: auto;
 }
 
 #pt {
@@ -320,6 +321,29 @@ section {
 
 footer{
     min-height: 70px;
-    background: #000;
+    background: #02271d;
     color:#fff;
+}
+
+.socials{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#icons{
+    padding: 8px;
+   
+}
+.fa{
+    color: rgb(210, 210, 210);
+}
+#copyright{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+   
 }
