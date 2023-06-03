@@ -21,7 +21,13 @@
 }
 
 /* Navbar styling */
+.nav-item{
+    color: white;
+}
 
+
+
+/* 
 .navbar {
     background: var(--primary-color);
     position: fixed;
@@ -79,7 +85,7 @@
 
 .navbar .menu li a:hover {
     color: var(--primary-color);
-}
+} */
 
 /* home section styling */
 
