@@ -9,6 +9,7 @@
 
 :root {
     --primary-color: #05231a;
+    --font-color: white;
 }
 
 /* main div */
@@ -29,7 +30,6 @@
     padding: 30px 0;
     transition: color 0.4s ease;
     z-index: 999;
-    /* height: 110px; */
 }
 
 .navbar.sticky {
@@ -37,14 +37,14 @@
     background-color: var(--primary-color);
 }
 
-/* need to change color for hover */
+
 
 .navbar.sticky .menu li a:hover {
     color: var(--primary-color);
 }
 
 .menu-btn {
-    color: white;
+    color: var(--font-color);
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -56,10 +56,10 @@
     justify-content: space-between;
 }
 
-/* need to insert logo  */
+
 
 .navbar .logo a {
-    color: white;
+    color: var(--font-color);
     font-size: 35px;
     font-weight: 600;
 }
@@ -70,7 +70,7 @@
 }
 
 .navbar .menu li a {
-    color: white;
+    color: var(--font-color);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -90,7 +90,7 @@
     background-size: cover;
     height: 120vh;
     min-height: 500px;
-    color: white;
+    color: var(--font-color);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -128,7 +128,7 @@
 
 #hirebtn {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--font-color);
     width: 100px;
     height: 40px;
     margin-top: 20px;
@@ -138,7 +138,7 @@
 }
 
 #hirebtn:hover {
-    background-color: #fff;
+    background-color: var(--font-color);
     color: var(--primary-color);
     background: none;
 }
@@ -216,14 +216,15 @@
 
 section {
     padding: 100px 0;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.about p{
+.about p {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 
 }
+
 .abouttext,
 .veridiang,
 .title {
@@ -232,13 +233,15 @@ section {
 
 .about {
     background-color: var(--primary-color);
-    height: 90vh;
-    /* min-width: 80vh; */
+
     font-family: 'Poppins', sans-serif;
 }
-.about .title,.portfolio .title{
+
+.about .title,
+.portfolio .title {
     margin-top: 60px;
 }
+
 .about .title,
 .portfolio .title,
 .contact .title {
@@ -252,7 +255,6 @@ section {
 }
 
 .about .title::before,
-
 .contact .title::before {
     content: "";
     position: absolute;
@@ -260,12 +262,12 @@ section {
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #fff;
+    background: var(--font-color);
     transform: translateX(-50%);
 }
 
 #cvbtn {
-    background-color: white;
+    background-color: var(--font-color);
     color: var(--primary-color);
     width: 200px;
     height: 40px;
@@ -277,14 +279,14 @@ section {
 
 #cvbtn:hover {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--font-color);
     background: none;
 }
 
 /* portfolio section styling */
 
 .portfolio {
-    height: 120vh;
+    /* height: 120vh; */
     /* min-width: 80vh; */
     background-image: url(images/rectangle.jpg);
     background-attachment: fixed;
@@ -295,8 +297,9 @@ section {
 #pt {
     color: #05231a;
 }
-.portfolio .title::before{
-    
+
+.portfolio .title::before {
+
     content: "";
     position: absolute;
     bottom: 0px;
@@ -310,43 +313,48 @@ section {
 /* contact section styling */
 
 .contact {
-    height: 80vh;
+    /* height: 80vh; */
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.contact p{
+
+.contact p {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 
 }
 
-footer{
-    min-height: 70px;
-    background: #02271d;
-    color:#fff;
-}
-
-.socials{
+.socials {
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
-#icons{
+
+#icons {
     padding: 8px;
-   
+
 }
-.fa{
+
+.fa {
     color: rgb(210, 210, 210);
 }
-#copyright{
+
+/* footer */
+footer {
+    min-height: 70px;
+    background: #02271d;
+    color: var(--font-color);
+}
+
+#copyright {
     padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
-   
+
 }
