@@ -6,7 +6,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 :root {
     --primary-color: #05231a;
     --font-color: white;
@@ -92,25 +98,37 @@ section {
     color: var(--primary-color);
 } */
 
+
+.navbar-toggler .navbar-toggler-icon{
+  
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");     
+} 
+.navbar-toggler-icon{
+    margin-right: 50px;
+}
 /* home section styling */
-.container{
+.home{
+    /* z-index: 1; */
     position: relative;
-    z-index: 1;
+    display: flex;
     background-image: url(images/rectangle.jpg);
     background-attachment: fixed;
-    background-size: cover; 
-    background-position: center;
+    background-size: cover;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif; 
+    color: var(--primary-color);
 }
+/*
 .home {
     position: relative;
     z-index: 2;
     /* width: 100vw; */
-    display: flex;
-    height: 120vh;
+    /* */
+    /* height: 120vh; */
     /* min-height: 500px; */
-    color: var(--font-color);
-    font-family: 'Ubuntu', sans-serif;
-}
+    /* color: var(--font-color); */
+    /* font-family: 'Ubuntu', sans-serif; 
+} */
 
 .home .max-width {
     /*  margin-top: auto; 
@@ -142,7 +160,7 @@ section {
 .home .home-content .text-3 span {
     color: var(--primary-color);
     font-weight: 500;
-}
+} 
 
 #hirebtn {
     background-color: var(--primary-color);
