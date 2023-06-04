@@ -12,6 +12,11 @@
     --font-color: white;
 }
 
+section {
+    padding: 100px 0;
+    min-height: 100vh;
+}
+
 /* main div */
 
 .max-width {
@@ -88,14 +93,21 @@
 } */
 
 /* home section styling */
-
-.home {
-    display: flex;
+.container{
+    position: relative;
+    z-index: 1;
     background-image: url(images/rectangle.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
+    background-position: center;
+}
+.home {
+    position: relative;
+    z-index: 2;
+    /* width: 100vw; */
+    display: flex;
     height: 120vh;
-    min-height: 500px;
+    /* min-height: 500px; */
     color: var(--font-color);
     font-family: 'Ubuntu', sans-serif;
 }
@@ -220,10 +232,6 @@
 
 /* about section styling */
 
-section {
-    padding: 100px 0;
-    min-height: 100vh;
-}
 
 .about p {
     font-size: 20px;
@@ -364,4 +372,5 @@ footer {
     font-family: 'Ubuntu', sans-serif;
 
 }
+
 
