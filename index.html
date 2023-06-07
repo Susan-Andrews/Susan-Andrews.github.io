@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Susan Andrews | Dev</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/navlogo.jpeg" type="x-icon">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -13,58 +16,46 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
     <!-- Font Awesome -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
-    <!-- MDB -->
+    <!-- MDB  CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
 
-    <!-- MDB -->
+    <!-- MDB  JS-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Local css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- ======Navigation bar====== -->
-    <!-- <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#"><img src="images/1685720979623-01.jpeg" width="60" height="60"/></a></div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fa fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
- -->
-
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style=" background-color: #05231a;">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <a class="navbar-brand" href="#"><img src="images/1685720979623-01.jpeg" width="60" height="60" /></a>
+        <a class="navbar-brand" href="#"><img src="images/navlogo.jpeg" width="60" height="60" /></a>
         <button class="navbar-toggler ml-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4 ">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav  ">
                 <li class="nav-item active">
                     <a class="nav-link ml-4 " href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -75,6 +66,12 @@
                     <a class="nav-link ml-4 " href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link ml-4 " href="#about2">Services <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link ml-4 " href="#portfolio2">extra <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link ml-4 " href="#contact">Contact <span class="sr-only">(current)</span></a>
                 </li>
 
@@ -82,23 +79,35 @@
 
         </div>
     </nav>
+
     <!-- ======Home section======= -->
- 
-
-        <section class="home" id="home">
-            <div class="max-width">
-                <div class="home-content">
-
-                    <div class="text-1">Hello , My name is</div>
-                    <div class="text-2">Susan Andrews</div>
-                    <div class="text-3">I am a <span>cs scholar</span></div>
-                    <a href="images/logo.png" download="mylogo"><button id="hirebtn">Hire Me</button></a>
-                </div>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-2">Susan Andrews</div>
+                <a href="images/logo.png" download="mylogo"><button id="hirebtn">Hire Me</button></a>
+                <a href="images/logo.png" download="mylogo"><button id="hirebtn">ping me</button></a>
             </div>
-        </section>
-  
-    <!-- ======About section======  -->
+        </div>
 
+        <!-- ======Home section-Socials ======= -->
+        <div class="socials">
+            <div id="icons"><a href="https://github.com/Susan-Andrews" target="_blank"><i style="font-size:28px;"
+                        class="fa fa-github" role="button"></i></a></div>
+            <div id="icons"><a href="https://www.linkedin.com/in/susanandrews/" target="_blank"><i
+                        style="font-size:28px;" class="fa fa-linkedin" role="button"></i></a></div>
+            <div id="icons"><a href="https://instagram.com/ann__susann?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><i
+                        style="font-size:28px;" class="fa fa-instagram" role="button"></i></a>
+            </div>
+            <div id="icons"><a href="mailto:susanandrews2024@ajce.in" target="_blank"><i style="font-size:28px;"
+                        class="fa fa-envelope" role="button"></i></a></div>
+            <div id="icons"><a href="https://twitter.com/annsusan01?t=HfPgq8ntZj5k_Kd7y_lisA&s=09" target="_blank"><i
+                        style="font-size:28px;" class="fa fa-twitter" role="button"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======About section======  -->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title" id="header">Who i am </h2>
@@ -108,397 +117,112 @@
                     websites.I wholeheartedly pursue my dream of creating and redesigning websites, channeling my love
                     for web development into every project I undertake.I approach each website project with a sense of
                     curiosity and a commitment to pushing creative boundaries.
-
                 </p>
-                <a href="images/logo.png" download="mylogo"><button id="cvbtn">Download my Resume</button></a>
+                <a href="images/logo.png" download="mylogo"><button id="cvbtn">Resume</button></a>
             </div>
+        </div>
+    </section>
+
+    <!-- ======Services section======  -->
+    <section class="portfolio" id="portfolio2">
+        <h2 id="pt" class="title">what i do</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======Projects section======  -->
+    <section class="about" id="about2">
+        <div class="max-width">
+            <h2 class="title" id="header">PROJECTS </h2>
         </div>
     </section>
 
     <!-- ======Portfolio section======  -->
-    <section class="portfolio" id="portfolio">
-        <h2 id="pt" class="title">Portfolio</h2>
-        <!--
-        <div class="max-width">
-            <h2 id="pt" class="title">Portfolio</h2>
-            <div class="home-content">
-                <h1 class="abouttext">I'm a web developer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius quod provident consectetur
-                    unde, eum consequatur minus ipsum, delectus tempora labore nostrum aperiam facilis qui? Itaque
-                    incidunt voluptas sint amet?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae consectetur ipsa
-                    perspiciatis rem eligendi sed enim eos, in voluptatibus repellat dolorem quo libero molestias,
-                    voluptatem sit, eum mollitia neque. Enim, animi blanditiis! Porro, asperiores non. Provident nam
-                    sunt itaque natus error voluptates at odit ipsa sequi veniam officiis minus veritatis dignissimos
-                    eveniet quasi dolorem perspiciatis deleniti doloribus nihil, mollitia officia. Unde inventore
-                    excepturi accusantium dolor eum corrupti animi dolores, ducimus doloremque necessitatibus ipsam in
-                    sed. Illum, velit, error rerum cum consectetur quae, quo magnam eveniet itaque illo a. In reiciendis
-                    saepe maiores sint magnam! Nemo, ratione! Deserunt fuga est eos velit vero provident, eaque
-                    veritatis fugit, temporibus, odit ipsum ipsa quaerat laborum nam itaque voluptatum corrupti
-                    voluptates vitae commodi deleniti magnam. Recusandae officia quae dolor veniam dolore ab rerum sequi
-                    repellendus repudiandae quas odio iste velit nisi asperiores, exercitationem est sint. Obcaecati
-                    modi officia explicabo animi enim rerum, sint eos architecto delectus ipsum deserunt nemo,
-                    necessitatibus molestiae aliquid tempora ratione? Eius quisquam corrupti reprehenderit similique
-                    repellat omnis cumque reiciendis. Blanditiis, iste enim! Architecto, consequuntur reprehenderit ex
-                    ad cum aliquam fugiat. Cupiditate, blanditiis iure hic numquam et placeat! Impedit assumenda earum
-                    distinctio aliquid dignissimos voluptate. Fugiat exercitationem fuga libero est.
-                </p>
-                 need to change the id of button  
-                <a href="#"><button id="hirebtn">Read More</button></a>
-            </div>
-        </div>
-        -->
 
-        <!-- Grid row -->
+    <!-- width can be changed  -->
+    <section class="portfolio" id="portfolio2">
+        <h2 id="pt" class="title">extra</h2>
         <div class="row">
-
-            <!-- Grid column -->
-            <h2>Collabs</h2>
-            <!-- 1 -->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src="images/ieee.png"
-                                        allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div class="modal-footer justify-content-center">
-                                <span class="mr-4">First todo project with html,css,bootstrap,js</span>
-
-                                <!--Github-->
-                                <div id="icons"><a href="https://github.com/Susan-Andrews" target="_blank"><i
-                                            style="font-size:28px;" class="fa fa-github" role="button"></i></a></div>
-                                <!-- link -->
-                                <div id="icons"><a href="https://github.com/Susan-Andrews" target="_blank"> <i
-                                            class="fa fa-paperclip" style="font-size:24px"></i></a></div>
-
-                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="images/ieee.png" alt="video" data-toggle="modal"
-                        data-target="#modal1"></a>
-
             </div>
-            <!-- Grid column -->
-
-            <!-- 2 -->
-
-            <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src="images/todo-react.png"
-                                        allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div class="modal-footer justify-content-center">
-                                <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i
-                                        class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i
-                                        class="fab fa-linkedin-in"></i></a>
-
-                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="images/todo-react.png" alt="video" data-toggle="modal"
-                        data-target="#modal6"></a>
-
             </div>
-            <!-- Grid column -->
-
-            <!-- 3 -->
-
-
-            <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src="images/torero.png"
-                                        allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div class="modal-footer justify-content-center">
-                                <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i
-                                        class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i
-                                        class="fab fa-linkedin-in"></i></a>
-
-                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
-                    </div>
-                </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="images/torero.png" alt="video" data-toggle="modal"
-                        data-target="#modal4"></a>
-
-            </div>
-            <!-- Grid column -->
-
-
         </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
+        <br>
         <div class="row">
-            <h2>Personal</h2>
-
-            <!-- 4 -->
-
-
-            <!-- Grid column -->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src=""
-                                        allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div class="modal-footer justify-content-center">
-                                <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i
-                                        class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i
-                                        class="fab fa-linkedin-in"></i></a>
-
-                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="images/todo-react.png" alt="video" data-toggle="modal"
-                        data-target="#modal2"></a>
-
             </div>
-            <!-- Grid column -->
-
-            <!-- 5 -->
-
-
-            <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src="images/pattrack.png"
-                                        allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div class="modal-footer justify-content-center">
-                                <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i
-                                        class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i
-                                        class="fab fa-linkedin-in"></i></a>
-
-                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
+            <div class="col-sm-6">
+                <div class="card" id="pcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="images/pattrack.png" alt="video" data-toggle="modal"
-                        data-target="#modal5"></a>
-
             </div>
-            <!-- Grid column -->
-
-            <!-- 6 -->
-
-
-            <!-- Grid column -->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-
-                        <!--Content-->
-                        <div class="modal-content">
-
-                            <!--Body-->
-                            <div class="modal-body mb-0 p-0">
-
-                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe class="embed-responsive-item" src="images/myplanner.jpeg"
-                                        allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--Footer-->
-                            <div class="modal-footer d-block d-md-flex justify-content-center">
-                                <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i
-                                        class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i
-                                        class="fab fa-linkedin-in"></i></a>
-
-                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                    data-dismiss="modal">Close</button>
-
-                            </div>
-
-                        </div>
-                        <!--/.Content-->
-
-                    </div>
-                </div>
-                <!--Modal: Name-->
-
-                <a><img class="img-fluid z-depth-1" src="images/myplanner.jpeg" alt="video" data-toggle="modal"
-                        data-target="#modal3"></a>
-
-            </div>
-            <!-- Grid column -->
-
         </div>
-        <!-- Grid row -->
-
-
-
-
     </section>
-
 
     <!-- ======Contact section======  -->
     <section class="contact" id="contact">
@@ -514,7 +238,6 @@
                     Wanna ping me? I'm looking forward to hearing from you!
                 </p>
                 <div class="socials">
-
                     <div id="icons"><a href="https://github.com/Susan-Andrews" target="_blank"><i
                                 style="font-size:28px;" class="fa fa-github" role="button"></i></a></div>
                     <div id="icons"><a href="https://www.linkedin.com/in/susanandrews/" target="_blank"><i
@@ -527,22 +250,28 @@
                     <div id="icons"><a href="https://twitter.com/annsusan01?t=HfPgq8ntZj5k_Kd7y_lisA&s=09"
                             target="_blank"><i style="font-size:28px;" class="fa fa-twitter" role="button"></i></a>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
     </section>
 
+     <!-- ====== Footer ======  -->
     <footer>
         <!-- <div class="container flex align-items center">
             <h3  class="veridiang" id="copyright">Copyright:Annu</h3>
         </div> -->
     </footer>
+    
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
 
     <!-- =======Local Javascript file====== -->
     <script src="script.js"></script>
+    
 </body>
 
 </html>
