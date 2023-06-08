@@ -7,13 +7,13 @@
     text-decoration: none;
 }
 
-h2 {
+/* h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
 
 :root {
     --primary-color: #05231a;
@@ -78,8 +78,9 @@ section {
     padding-bottom: 3px;
     font-weight: 700;
     white-space: nowrap;
-  overflow: hidden;
-  margin-top: 53px;
+    overflow: hidden;
+    margin-top: 53px;
+
 }
 
 #hirebtn {
@@ -98,16 +99,71 @@ section {
     color: var(--primary-color);
     background: none;
 }
-.socialright{
-    margin-left:39%;
+
+.socialright {
+    margin-left: 39%;
     margin-top: 15%;
     margin-right: 10px;
-    /* width: 40px;
-    height: 50px; */
-    /* display:flex;
-        justify-content:flex-end;
-        align-items:flex-end; */
+
 }
+
+/* color:#289a78; */
+.desc {
+    display:inline-flex;
+}
+.desc .text-first {
+    margin-top:3px;
+    color: white;
+    /* font-weight:100;
+    font-size: small; */
+}
+
+.desc .text-sec {
+    padding-left: 15px;
+    line-height: 49px;
+    overflow:hidden ;
+    height: 47px;
+
+}
+.desc .text-sec  li{
+    padding-top: 2px;
+    color:#289a78;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 7s steps(7) infinite;
+}
+
+@keyframes slide {
+    100%{
+      top:-360px;
+    }
+}
+
+.desc .text-sec li span{
+    position: relative;
+    
+}
+.desc .text-sec li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:#05231a;
+    border-left: 2px solid black;
+    animation: typing 1s steps(12) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
 /* responsive media query start */
 
 @media (max-width:947px) {
@@ -124,8 +180,9 @@ section {
     .socialright {
         margin-left: 26%;
         margin-top: 25%;
-        margin-right:0;
-      }
+        margin-right: 0;
+    }
+
     .navbar .menu {
         position: fixed;
         background: var(--primary-color);
@@ -158,15 +215,27 @@ section {
         overflow: visible;
     }
 
+    #hirebtn:hover {
+        background-color: var(--font-color);
+        color: var(--primary-color);
+        background: none;
+    }
 }
 
 @media (min-width: 947px) and (max-width: 1134px) {
     .socialright {
-      margin-left: 10%;
-      margin-top: 17%;
-      margin-right:15px;
+        margin-left: 10%;
+        margin-top: 17%;
+        margin-right: 15px;
     }
-  }
+
+    #hirebtn:hover {
+        background-color: var(--font-color);
+        color: var(--primary-color);
+        background: none;
+    }
+}
+
 @media (max-width:500px) {
     .max-width {
         padding: 0 23px;
@@ -178,14 +247,17 @@ section {
         overflow: visible;
         padding-left: 5px;
     }
+
     #hire-btn {
         font-size: x-large;
     }
+
     .socialright {
         margin-left: 9%;
         margin-top: 50%;
-        margin-right:20px;
-      }
+        margin-right: 20px;
+    }
+
 }
 
 
@@ -330,6 +402,7 @@ section {
 #icons {
     padding: 8px;
 }
+
 .fa {
     color: rgb(210, 210, 210);
 }
