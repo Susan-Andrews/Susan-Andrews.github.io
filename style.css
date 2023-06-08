@@ -342,14 +342,23 @@ section {
 }
 
 /* portfolio section styling */
-#pcard {
+#pcard1,#pcard2,#pcard3,#pcard4,#pcard {
     background-color: rgb(240, 239, 239);
-    width: 70%;
+    width: 60%;
     height: 90%;
     margin-left: 60px;
     padding-left: 20px;
 }
-
+#cbody{
+    
+    padding-left: 70px;
+}
+#pcard1h5{
+    font-size: 40px;
+    font-weight: 300;
+    justify-content: center;
+    
+}
 .portfolio,
 .cardsc {
     /* height: 120vh; */
@@ -358,6 +367,9 @@ section {
     background-attachment: fixed;
     background-size: cover;
     margin: auto;
+}
+#portfolio2{
+    min-height: 40vh;
 }
 
 #pt {
