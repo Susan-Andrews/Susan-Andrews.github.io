@@ -109,6 +109,7 @@ section {
         align-items:flex-end; */
 }
 /* responsive media query start */
+
 @media (max-width:947px) {
     .max-width {
         padding: 0 50px;
@@ -120,12 +121,11 @@ section {
         z-index: 999;
     }
 
-    .socialright{
-        display:block;
-        justify-content: center;
-        align-items: center;
-    }
-
+    .socialright {
+        margin-left: 26%;
+        margin-top: 25%;
+        margin-right:0;
+      }
     .navbar .menu {
         position: fixed;
         background: var(--primary-color);
@@ -160,6 +160,13 @@ section {
 
 }
 
+@media (min-width: 947px) and (max-width: 1134px) {
+    .socialright {
+      margin-left: 10%;
+      margin-top: 17%;
+      margin-right:15px;
+    }
+  }
 @media (max-width:500px) {
     .max-width {
         padding: 0 23px;
@@ -169,11 +176,18 @@ section {
         font-size: 50px;
         white-space: normal;
         overflow: visible;
+        padding-left: 5px;
     }
     #hire-btn {
         font-size: x-large;
     }
+    .socialright {
+        margin-left: 9%;
+        margin-top: 50%;
+        margin-right:20px;
+      }
 }
+
 
 /* about section styling */
 .about {
