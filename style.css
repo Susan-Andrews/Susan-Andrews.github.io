@@ -7,13 +7,7 @@
     text-decoration: none;
 }
 
-/* h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-} */
+
 
 :root {
     --primary-color: #05231a;
@@ -371,7 +365,15 @@ section {
 #portfolio2{
     min-height: 40vh;
 }
- #tohover{
+
+#devicon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#tohover{
     font-size: 50px;
     color:  rgb(210, 210, 210);
     padding: 5px;
@@ -380,6 +382,20 @@ section {
 #tohover:hover{
     color: #02271d;
 }
+@media (max-width: 767px) {
+    #devicon {
+      justify-content: flex-start;
+    }
+
+    #tohover{
+        color:  rgb(210, 210, 211);
+    }
+
+    #tohover:hover{
+        color: #05231a;
+    }
+  }
+
 
 #pt {
     color: #05231a;
