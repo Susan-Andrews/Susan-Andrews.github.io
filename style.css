@@ -7,8 +7,6 @@
     text-decoration: none;
 }
 
-
-
 :root {
     --primary-color: #05231a;
     --font-color: white;
@@ -94,17 +92,27 @@ section {
     background: none;
 }
 
+.fa {
+    color: rgb(210, 210, 210);
+}
+
 .socialright {
     margin-left: 39%;
     margin-top: 15%;
     margin-right: 10px;
 
 }
-.desc {
-    display:inline-flex;
+
+#home-socials #icons .fa:hover {
+    color: #02271d;
 }
+
+.desc {
+    display: inline-flex;
+}
+
 .desc .text-first {
-    margin-top:3px;
+    margin-top: 3px;
     color: white;
     /* font-weight:100;
     font-size: small; */
@@ -113,13 +121,14 @@ section {
 .desc .text-sec {
     padding-left: 15px;
     line-height: 49px;
-    overflow:hidden ;
+    overflow: hidden;
     height: 47px;
 
 }
-.desc .text-sec  li{
+
+.desc .text-sec li {
     padding-top: 2px;
-    color:#289a78;
+    color: #289a78;
     list-style: none;
     font-size: 40px;
     font-weight: 500;
@@ -129,28 +138,29 @@ section {
 }
 
 @keyframes slide {
-    100%{
-      top:-360px;
+    100% {
+        top: -360px;
     }
 }
 
-.desc .text-sec li span{
+.desc .text-sec li span {
     position: relative;
-    
+
 }
-.desc .text-sec li span::after{
+
+.desc .text-sec li span::after {
     content: "";
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    background:#05231a;
+    background: #05231a;
     border-left: 2px solid black;
     animation: typing 1s steps(12) infinite;
 }
 
 @keyframes typing {
-    100%{
+    100% {
         left: 100%;
         margin: 0 -35px 0 35px;
     }
@@ -337,30 +347,43 @@ section {
     /* background-color: transparent; */
 }
 
-
-
-#owl-img{
-    height: 250px;
-    
+@media (max-width:500px) {
+    .container-fluid {
+        padding: 10px;
+    }
 }
+
+/* Owl Carousel */
+#owl-img {
+    height: 250px;
+
+}
+
 /* portfolio section styling */
-#pcard1,#pcard2,#pcard3,#pcard4,#pcard {
-    background-color:#05231a;
+#pcard1,
+#pcard2,
+#pcard3,
+#pcard4,
+#pcard {
+    background-color: #05231a;
     width: 60%;
     height: 90%;
     margin-left: 60px;
     padding-left: 20px;
 }
-#cbody{
-    
+
+#cbody {
+
     padding-left: 70px;
 }
-#pcard1h5{
+
+#pcard1h5 {
     font-size: 40px;
     font-weight: 300;
     justify-content: center;
-    
+
 }
+
 .portfolio,
 .cardsc {
     /* height: 120vh; */
@@ -370,39 +393,41 @@ section {
     background-size: cover;
     margin: auto;
 }
-#portfolio2{
+
+#portfolio2 {
     min-height: 40vh;
 }
 
-#devicon{
+#devicon {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-#tohover{
+#tohover {
     font-size: 50px;
-    color:  rgb(210, 210, 210);
+    color: rgb(210, 210, 210);
     padding: 5px;
 }
 
-#tohover:hover{
+#tohover:hover {
     color: #02271d;
 }
+
 @media (max-width: 767px) {
     #devicon {
-      justify-content: flex-start;
+        justify-content: flex-start;
     }
 
-    #tohover{
-        color:  rgb(210, 210, 211);
+    #tohover {
+        color: rgb(210, 210, 211);
     }
 
-    #tohover:hover{
+    #tohover:hover {
         color: #05231a;
     }
-  }
+}
 
 
 #pt {
@@ -448,9 +473,6 @@ section {
     padding: 8px;
 }
 
-.fa {
-    color: rgb(210, 210, 210);
-}
 
 /* footer */
 footer {
