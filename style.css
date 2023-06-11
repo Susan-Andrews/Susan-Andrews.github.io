@@ -100,8 +100,6 @@ section {
     margin-right: 10px;
 
 }
-
-/* color:#289a78; */
 .desc {
     display:inline-flex;
 }
@@ -258,7 +256,7 @@ section {
 /* about section styling */
 .about {
     background-color: var(--primary-color);
-    height: 130vh;
+    height: 110vh;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -332,12 +330,22 @@ section {
 .about2 {
     margin-top: 40px;
     height: 90vh;
-    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* background-color: transparent; */
 }
 
+
+
+#owl-img{
+    height: 250px;
+    
+}
 /* portfolio section styling */
 #pcard1,#pcard2,#pcard3,#pcard4,#pcard {
-    background-color: rgb(240, 239, 239);
+    background-color:#05231a;
     width: 60%;
     height: 90%;
     margin-left: 60px;

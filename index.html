@@ -29,8 +29,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Jquery cdn -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script> -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
 
     <!-- MDB  CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
@@ -43,6 +48,16 @@
 
     <!-- devicon icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <!-- Local css -->
@@ -89,7 +104,7 @@
         <div class="max-width">
             <div class="home-content">
                 <div id="text-2">SUSAN ANDREWS</div>
-                
+
 
                 <div id="home-btn">
                     <a href="#about"><button id="hirebtn">Hire Me</button></a>
@@ -123,7 +138,9 @@
             <h2 class="title" id="header">Who i am </h2>
             <div class="home-content">
                 <div class="desc">
-                    <div class="text-first"><h1>I'm</h1> </div>
+                    <div class="text-first">
+                        <h1>I'm</h1>
+                    </div>
                     <ul class="text-sec">
                         <li><span>Developer</span></li>
                         <li><span>Designer</span></li>
@@ -132,8 +149,8 @@
                         <li><span>Self-starter</span></li>
                         <li><span>Collaborator</span></li>
                         <li><span>Innovator</span></li>
-                           
-                    </ul>               
+
+                    </ul>
                 </div>
                 <p class="veridiang">I'm a passionate website developer dedicated to creating stunning and user-friendly
                     websites.I wholeheartedly pursue my dream of creating and redesigning websites, channeling my love
@@ -144,12 +161,12 @@
             </div>
         </div>
     </section>
-        <!-- ======Portfolio section======  -->
+    <!-- ======Portfolio section======  -->
 
     <!-- width can be changed  -->
     <section class="portfolio" id="portfolio2">
         <h1 class="d-flex justify-content-center p-5">Languages and Domains</h2>
-            <div  class="d-flex justify-content-center" id="devicon">
+            <div class="d-flex justify-content-center" id="devicon">
                 <div id="tohover"><i class="devicon-html5-plain-wordmark"></i></div>
                 <div id="tohover"><i class="devicon-css3-plain-wordmark"></i></div>
                 <div id="tohover"><i class="devicon-javascript-plain"></i></div>
@@ -161,56 +178,166 @@
                 <div id="tohover"><i class="devicon-java-plain-wordmark"></i></div>
                 <div id="tohover"><i class="devicon-flutter-plain"></i></div>
                 <div id="tohover"><i class="devicon-firebase-plain-wordmark"></i></div>
-                <div id="tohover"><i class="devicon-github-original"></i></div>  
+                <div id="tohover"><i class="devicon-github-original"></i></div>
                 <div id="tohover"><i class="devicon-canva-original"></i></div>
                 <div id="tohover"><i class="devicon-figma-plain"></i></div>
                 <div id="tohover"><i class="devicon-mysql-plain-wordmark"></i></div>
             </div>
-     
+
     </section>
 
     <!-- ======Projects section======  -->
     <section class="about" id="about2">
         <div class="max-width">
             <h2 class="title" id="header">PROJECTS </h2>
+            <!-- <div class="container">
+                <div class="slide-container">
+                    <div class="card-wrapper">
+                        <div class="card" id="owlc">
+                            <div class="c1">
+                                <div class="image-box">
+                                    <img src="images/myplanner.jpeg" alt="myplanner" />
+                                </div>
+                                <div class="profile-details">
+                                    <h3 class="nametitle">hey</h3>
+                                    <h4 class="description">nthing</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/Myplanner-js.png" alt="todo-js" class="card-img-top" id="owl-img">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item ends -->
+                        <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/cyrus.jpeg" alt="todo-js" class="card-img-top" id="owl-img">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item ends --><div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/Wie-ieee.png" alt="todo-js" class="card-img-top" id="owl-img">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item ends --><div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/Todo.png" alt="todo-js" class="card-img-top" id="owl-img">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item ends --><div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/PATTRACK.png" alt="todo-js" class="card-img-top" id="owl-img">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item ends -->
+                        <!-- <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/myplanner.jpeg" alt="todo-js" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- item ends -->
+                        <!-- <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/myplanner.jpeg" alt="todo-js" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- item ends -->
+                        <!-- <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/myplanner.jpeg" alt="todo-js" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- item ends -->
+                        <!-- <div class="item mb-4">
+                            <div class="card border-0 shadow">
+                                <img src="images/myplanner.jpeg" alt="todo-js" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="fw-bold">description</h4>
+                                    <h5>another if needed</h5>
+
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
 
 
-       <!-- ======Services section======  -->
-       <section class="portfolio" id="portfolio2">
+    <!-- ======Services section======  -->
+    <section class="portfolio" id="portfolio2">
         <h2 id="pt" class="title">what i do</h2>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card" id="pcard1">
-                    <div class="card-body" id="cbody">
-                        <h5 class="card-title" id="pcard1h5">Designer</h5>
-                        <p class="card-text">Design logos and websites</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="col-sm-6">
-                <div class="card" id="pcard2">
-                    <div class="card-body" id="cbody">
-                        <h5 class="card-title" id="pcard1h5">Web Coordinator</h5>
-                        <p class="card-text">IEEE AJCE Student Branch Web Coordinator</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--        
         <br>
         <div class="row">
             <div class="col-sm-6">
                 <div class="card" id="pcard3">
                     <div class="card-body" id="cbody">
                         <h5 class="card-title" id="pcard1h5">Collab works</h5>
-                        <p class="card-text">Projects  with teams</p>
+                        <p class="card-text">Projects with teams</p> -->
                         <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
+                    <!-- </div>
                 </div>
             </div>
             <br>
@@ -218,12 +345,12 @@
                 <div class="card" id="pcard4">
                     <div class="card-body" id="cbody">
                         <h5 class="card-title" id="pcard1h5">Volunteer</h5>
-                        <p class="card-text">Various Student Branch Societies</p>
+                        <p class="card-text">Various Student Branch Societies</p> -->
                         <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
+                    <!-- </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- ======Contact section======  -->
@@ -266,6 +393,11 @@
 
     <!-- animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
         AOS.init();
