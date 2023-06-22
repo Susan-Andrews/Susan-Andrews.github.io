@@ -7,6 +7,7 @@
 - Wanna some elements? Check out [Mdb](https://mdbootstrap.com/)
 - [Devicons](https://devicon.dev/) for my domain.
 - Owl Carousel to animate [Amimate !](https://owlcarousel2.github.io/OwlCarousel2/)
+- animate on scroll
 
 
 
