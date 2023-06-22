@@ -493,11 +493,11 @@ section {
 
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .anime {
         width: 10rem;
     }
-}
+} */
 
 #btn-back-to-top {
     position: fixed;
