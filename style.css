@@ -28,6 +28,8 @@ section {
 /* Navbar styling */
 .nav-item {
     color: white;
+    width: auto;
+    height: auto;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -473,7 +475,27 @@ section {
     padding: 8px;
 }
 
+.anime1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.anime{
+    width: 50rem;
+    height: 100px;
+    background: #05231a;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 9px;
 
+}
+@media (max-width: 767px){
+    .anime{
+        width: 10rem;
+     }
+}
 /* footer */
 footer {
     min-height: 70px;
@@ -482,6 +504,7 @@ footer {
 }
 
 #copyright {
+    font-size: medium;
     padding-top: 20px;
     display: flex;
     align-items: center;
