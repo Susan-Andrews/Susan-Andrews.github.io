@@ -475,12 +475,13 @@ section {
     padding: 8px;
 }
 
-.anime1{
+.anime1 {
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.anime{
+
+.anime {
     width: 50rem;
     height: 100px;
     background: #05231a;
@@ -491,11 +492,13 @@ section {
     border-radius: 9px;
 
 }
-@media (max-width: 767px){
-    .anime{
+
+@media (max-width: 767px) {
+    .anime {
         width: 10rem;
-     }
+    }
 }
+
 /* footer */
 footer {
     min-height: 70px;
