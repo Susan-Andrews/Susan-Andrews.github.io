@@ -468,6 +468,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
 
 }
 
@@ -490,6 +491,7 @@ section {
     justify-content: center;
     color: white;
     border-radius: 9px;
+   
 
 }
 
