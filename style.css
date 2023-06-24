@@ -302,7 +302,7 @@ section {
     position: relative;
 }
 
-.about .title::before,
+/* .about .title::before,
 .contact .title::before {
     content: "";
     position: absolute;
@@ -312,7 +312,7 @@ section {
     height: 3px;
     background: var(--font-color);
     transform: translateX(-50%);
-}
+} */
 
 @media (max-width:500px) {
 
@@ -324,7 +324,7 @@ section {
 #cvbtn {
     background-color: var(--font-color);
     color: var(--primary-color);
-    width: 200px;
+    width: 150px;
     height: 40px;
     margin-top: 20px;
     border: none;
