@@ -104,7 +104,15 @@ section {
     margin-right: 10px;
 
 }
+@media (max-width:1148px) {
+    
+.socialright {
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-right: 0px;
 
+}
+}
 #home-socials #icons .fa:hover {
     color: #02271d;
 }
@@ -226,9 +234,9 @@ section {
     }
 }
 
-@media (min-width: 947px) and (max-width: 1134px) {
+@media (min-width: 947px) and (max-width: 1128px) {
     .socialright {
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 17%;
         margin-right: 15px;
     }
@@ -241,6 +249,32 @@ section {
 }
 
 @media (max-width:500px) {
+    .max-width {
+        padding: 0 18px;
+    }
+
+    .home .home-content #text-2 {
+        font-size: 40px;
+        white-space: normal;
+        overflow: visible;
+        padding-left: 2px;
+    }
+
+    #hire-btn {
+        font-size:medium;
+    }
+
+    .socialright {
+        margin-left: 2%;
+        margin-top: 50%;
+        margin-right: 30px;
+    }
+
+ }
+ 
+ /*
+
+@media (max-width:360px) {
     .max-width {
         padding: 0 23px;
     }
@@ -262,7 +296,7 @@ section {
         margin-right: 20px;
     }
 
-}
+} */
 
 
 /* about section styling */
@@ -497,7 +531,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-@media (max-width:668px){
+@media (max-width:805px){
     .anime{
         width: 30rem;
         height: 90px;
