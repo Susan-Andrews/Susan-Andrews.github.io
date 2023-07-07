@@ -358,6 +358,7 @@ section {
 #cvbtn {
     background-color: var(--font-color);
     color: var(--primary-color);
+    padding: 0;
     width: 150px;
     height: 40px;
     margin-top: 20px;
