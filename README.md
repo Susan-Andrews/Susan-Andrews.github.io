@@ -21,8 +21,8 @@ This portfolio website is built using HTML, CSS, and JavaScript. It follows a re
 
 To run the website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
-2. Navigate to the project directory: `cd your-portfolio`
+1. Clone the repository: `git clone https://github.com/Susan-Andrews/Susan-Andrews.github.io.git`
+2. Navigate to the project directory
 3. Open the `index.html` file in your preferred web browser.
 
 
