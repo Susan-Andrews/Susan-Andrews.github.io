@@ -9,7 +9,7 @@
 
 :root {
     --primary-color: #05231a;
-    --font-color: white;
+    --font-color: #FFFAF4;
 }
 
 section {
@@ -27,7 +27,7 @@ section {
 
 /* Navbar styling */
 .nav-item {
-    color: white;
+    color: #FFFAF4;
     width: auto;
     height: auto;
 }
@@ -95,7 +95,7 @@ section {
 }
 
 .fa {
-    color: rgb(210, 210, 210);
+    color:#FFFAF4;
 }
 
 .socialright {
@@ -123,7 +123,7 @@ section {
 
 .desc .text-first {
     margin-top: 3px;
-    color: white;
+    color: #FFFAF4;
     /* font-weight:100;
     font-size: small; */
 }
@@ -281,7 +281,7 @@ section {
 
     .home .home-content #text-2 {
         font-size: 50px;
-        white-space: normal;
+        #FFFAF4-space: normal;
         overflow: visible;
         padding-left: 5px;
     }
@@ -523,7 +523,7 @@ section {
     align-items: center;
     display: flex;
     justify-content: center;
-    color: white;
+    color: #FFFAF4;
     border-radius: 9px;
 }
 #blog_h1{
