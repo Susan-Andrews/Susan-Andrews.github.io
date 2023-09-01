@@ -41,6 +41,70 @@ section {
     margin-right: 50px;
 }
 
+.carousel .item {
+    height: 300px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 100px;
+  /* }
+#carouselExampleIndicators{
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+    /* max-width: 800px; */
+   
+    /* max-height: 500px; */
+} */
+/* .new{
+    width: 800px;
+    height: 400px;
+}
+@media (min-width: 947px) and (max-width: 1128px){
+    #carouselExampleIndicators{
+        max-width: 600px;
+    }
+    .new{
+        width: 600px;
+        height: 300px;
+    }
+}
+@media (min-width: 500px) and (max-width: 947px){
+    #carouselExampleIndicators{
+        max-width: 530px;
+    }
+    .new{
+        width: 530px;
+        height: 200px;
+    }
+
+}
+@media (max-width:500px){
+    #carouselExampleIndicators{
+        max-width: 380px;
+    }
+    .new{
+        width: 380px;
+        height: 200px;
+    }
+} */
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+}
+
+
+.link-custom .card-custom-image img{
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+}
+
 /* home section styling */
 
 .home {
