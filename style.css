@@ -289,7 +289,9 @@ section {
     }
 
 }
-
+.container{
+    overflow: hidden;
+}
 
 /* about section styling */
 
@@ -315,7 +317,7 @@ section {
 
 .about .title,
 .portfolio .title {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .about .title,
@@ -326,7 +328,7 @@ section {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: relative;
 }
 
