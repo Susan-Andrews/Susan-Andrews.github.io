@@ -320,7 +320,6 @@ section {
     margin-top: 40px;
 }
 
-.about .title,
 .portfolio .title,
 .contact .title {
     text-align: center;
@@ -328,6 +327,15 @@ section {
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.about .title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
     padding-bottom: 10px;
     position: relative;
 }
