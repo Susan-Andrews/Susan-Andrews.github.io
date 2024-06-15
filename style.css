@@ -68,28 +68,35 @@ section {
     color: var(--primary-color);
 }
 
-.home .max-width {
-    /*  margin-top: auto; 
-        margin-left:0;
-        margin-bottom: auto;
-        margin-right: 10px; */
-    margin: auto 0 auto 10px;
+.home .max-width {    
+        /* margin: auto 0 auto 10px; */
 }
 
 .home .home-content {
     color: var(--primary-color);
+    justify-content: center;
 }
 
 .home .home-content #text-2 {
-    font-size: 80px;
+    font-size: 90px;
     padding-bottom: 3px;
-    font-weight: 700;
+    font-weight: 800;
     white-space: nowrap;
     overflow: hidden;
     margin-top: 53px;
 
 }
+.home .home-content #text-3{
+    font-size: 45px;
 
+}
+
+#home-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 #hirebtn {
     background-color: var(--primary-color);
     color: var(--font-color);
@@ -111,20 +118,28 @@ section {
     color: rgb(210, 210, 210);
 }
 
-.socialright {
-    margin-left: 39%;
-    margin-top: 15%;
-    margin-right: 10px;
+#home-socials {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
 
+}
+#home-socials #icons {
+    padding:20px;
 }
 
 @media (max-width:1148px) {
 
-    .socialright {
+    /* .socialright {
         margin-left: 20%;
         margin-top: 15%;
         margin-right: 0px;
 
+    } */
+    #home-socials{
+        
     }
 }
 
@@ -204,10 +219,14 @@ section {
         z-index: 999;
     }
 
-    .socialright {
+    /* .socialright {
         margin-left: 26%;
         margin-top: 25%;
         margin-right: 0;
+    } */
+
+    #home-socials{
+
     }
 
     .navbar .menu {
@@ -250,10 +269,13 @@ section {
 }
 
 @media (min-width: 947px) and (max-width: 1128px) {
-    .socialright {
+    /* .socialright {
         margin-left: 5%;
         margin-top: 17%;
         margin-right: 15px;
+    } */
+    #home-socials{
+
     }
 
     #hirebtn:hover {
@@ -279,10 +301,13 @@ section {
         font-size: medium;
     }
 
-    .socialright {
+    /* .socialright {
         margin-left: 2%;
         margin-top: 50%;
         margin-right: 30px;
+    } */
+    #home-socials{
+
     }
 
 }
@@ -525,7 +550,10 @@ section {
 }
 
 #icons {
-    padding: 8px;
+    padding: 15px;
+    }
+#icons a .fa{
+    font-size: 36px;
 }
 
 .anime1 {
