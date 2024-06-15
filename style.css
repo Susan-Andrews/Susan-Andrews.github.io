@@ -61,7 +61,7 @@ section {
     /* z-index: 1; */
     position: relative;
     display: flex;
-    background-image: url(images/bg.jpg);
+    background-image: url(images/bgmain.png);
     background-attachment: fixed;
     background-size: cover;
     margin: auto;
@@ -69,9 +69,9 @@ section {
     color: var(--primary-color);
 }
 
-.home .max-width {    
-        /* margin: auto 0 auto 10px; */
-}
+/* .home .max-width {    
+        margin: auto 0 auto 10px;
+} */
 
 .home .home-content {
     color: var(--primary-color);
@@ -91,6 +91,9 @@ section {
 }
 .home .home-content #text-3{
     font-size: 45px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
 
 }
 
@@ -141,9 +144,9 @@ section {
         margin-right: 0px;
 
     } */
-    #home-socials{
+    /* #home-socials{
         
-    }
+    } */
 }
 
 #home-socials #icons .fa:hover {
@@ -228,10 +231,12 @@ section {
         margin-right: 0;
     } */
 
-    #home-socials{
+    /* #home-socials{
 
+    } */
+    #home-socials #icons{
+        padding: 10px;
     }
-
     .navbar .menu {
         position: fixed;
         background: var(--primary-color);
@@ -257,11 +262,31 @@ section {
         margin: 20px 0;
         font-size: 20px;
     }
+    
+    .home {
+        /* z-index: 1; */
+        position: relative;
+        display: flex;
+        background-image: url(images/bgsub.png);
+        background-attachment: fixed;
+        background-size: cover;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+        color: var(--primary-color);
+    }
 
     .home .home-content #text-2 {
         font-size: 50px;
-        white-space: normal;
+        /* white-space: normal; */
         overflow: visible;
+    }
+
+    .home .home-content #text-3{
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
     }
 
     #hirebtn:hover {
@@ -277,9 +302,9 @@ section {
         margin-top: 17%;
         margin-right: 15px;
     } */
-    #home-socials{
+    /* #home-socials{
 
-    }
+    } */
 
     #hirebtn:hover {
         background-color: var(--font-color);
@@ -299,7 +324,12 @@ section {
         overflow: visible;
         padding-left: 2px;
     }
-
+    .home .home-content #text-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     #hire-btn {
         font-size: medium;
     }
@@ -310,8 +340,10 @@ section {
         margin-right: 30px;
     } */
     #home-socials{
-
+        display: flex;
+        flex-wrap: nowrap;
     }
+    
 
 }
 .container{
