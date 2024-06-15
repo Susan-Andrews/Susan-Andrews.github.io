@@ -75,6 +75,7 @@ section {
 .home .home-content {
     color: var(--primary-color);
     justify-content: center;
+    padding-top: 70px;
 }
 
 .home .home-content #text-2 {
